@@ -1,29 +1,29 @@
 // PRIMITIVES
 
 // Number
-5
-1.5
+var numberLiteral = 5
+var numberLiteral = 1.5
 // String
-'Hello'
-"J can't"
+var stringLiteral = 'Hello'
+var stringLiteral = "J can't"
 // Boolean
-true
-false
+var booleanLiteral = true
+var booleanLiteral = false
 // null
-null
+ var nullLiteral = null
 // undefined
-undefined
+var undefinedLiteral = undefined
 
 // OBJECTS
 
 // Object
-({
+var objectLiteral = ({
     name: 'Drakula',
     age: 7
 })
 
 // Array - (subtype or kind of object) - tablica jest rodzajem obiektu
-['Drakula', 7]
+var arrayLiteral = ['Drakula', 7]
 // Functions are also Objects
 
 // Średniki w kodzie zawsze !!! musimy wstawić przed nawiasem (jakimkolwiek nawiasem).
